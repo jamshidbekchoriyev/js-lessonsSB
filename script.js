@@ -11,13 +11,13 @@ window.onload = function(){
         private: false,
     };
 
-    const a = prompt("Oxirgi ko'rgan serialingiz?"),
-    b = prompt ("Nechi baho bergan bo'lardingiz?"),
-    c = prompt("Oxirgi ko'rgan serialingiz?"),
-    d = prompt ("Nechi baho bergan bo'lardingiz?");
+    // const a = prompt("Oxirgi ko'rgan serialingiz?"),
+    // b = prompt ("Nechi baho bergan bo'lardingiz?"),
+    // c = prompt("Oxirgi ko'rgan serialingiz?"),
+    // d = prompt ("Nechi baho bergan bo'lardingiz?");
 
-    seriesDB.series[a] = b;
-    seriesDB.series[c] = d;
+    // seriesDB.series[a] = b;
+    // seriesDB.series[c] = d;
 
     console.log(seriesDB)
 
