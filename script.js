@@ -12,9 +12,9 @@ window.onload = function(){
     };
 
     const a = prompt("Oxirgi ko'rgan serialingiz?"),
-    b = prompt ("Nechi baho berasiz?"),
+    b = prompt ("Nechi baho bergan bo'lardingiz?"),
     c = prompt("Oxirgi ko'rgan serialingiz?"),
-    d = prompt ("Nechi baho berasiz?");
+    d = prompt ("Nechi baho bergan bo'lardingiz?");
 
     seriesDB.series[a] = b;
     seriesDB.series[c] = d;
