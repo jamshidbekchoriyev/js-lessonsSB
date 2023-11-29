@@ -24,10 +24,6 @@ window.onload = function(){
 
 
 
-    let ason = 10;
-    let bson = 10;
-
-    console.log(ason++);
-    console.log(bson--)
+    
 
 }
