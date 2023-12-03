@@ -21,7 +21,7 @@ window.onload = function(){
 
     // console.log(seriesDB)
 
-     const age = +prommpt("yoshingiz nechida?", "");
+     const age = +prompt("yoshingiz nechida?", "");
 
      if(age > 10){
         console.log("welcome")
