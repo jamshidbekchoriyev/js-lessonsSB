@@ -41,7 +41,7 @@ window.onload = function(){
 
     const a = prompt("Oxirgi ko'rgan serialingiz?"),
         b = prompt("Nechi baho berasz?"),
-        c = prompt("Oxirgi ko'rgan serialingiz?")
+        c = prompt("Oxirgi ko'rgan serialingiz?"),
         d = prompt("Nechi baho berasz?");
 
     seriesDb.series[a]= b;
@@ -54,6 +54,6 @@ window.onload = function(){
 
 
 
-    
+
 }
 
