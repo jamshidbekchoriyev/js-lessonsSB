@@ -22,8 +22,6 @@ window.onload = function(){
     console.log(seriesDB)
 
 
-
-
     
 
 }
