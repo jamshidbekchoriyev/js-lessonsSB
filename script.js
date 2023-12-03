@@ -29,38 +29,31 @@ window.onload = function(){
 
 
 
+    const numberOfSeries = +prompt("Nechta serial ko'rdingiz?",  "");
+
+    const seriesDb = {
+        count: numberOfSeries,
+        series: {},
+        actors: {},
+        genres: [],
+        private: false,
+    };
+
+    const a = prompt("Oxirgi ko'rgan serialingiz?"),
+        b = prompt("Nechi baho berasz?"),
+        c = prompt("Oxirgi ko'rgan serialingiz?")
+        d = prompt("Nechi baho berasz?");
+
+    seriesDb.series[a]= b;
+    seriesDb.series[c]= d;
+
+    console.log(seriesDb)
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-const numberOfSeries = +prompt("Nechta serial ko'rdingiz?");
-
-const seriesDb = {
-    count: numberOfSeries,
-    series: {},
-    actors: {},
-    genres: [],
-    private: false,
+    
 }
 
-const a = prompt("Oxirgi ko'rgan serialingiz?"),
-    b = prompt("Nechi baho berasz?"),
-    c = prompt("Oxirgi ko'rgan serialingiz?")
-    d = prompt("Nechi baho berasz?");
-
-}
-
-seriesDb.series[a]= b;
-seriesDb.series[c]= d;
-
-console.log(seriesDb)
