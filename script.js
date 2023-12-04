@@ -23,11 +23,11 @@ window.onload = function(){
 
      const age = +prompt("yoshingiz nechida?", "");
 
-     if(age > 10){
-        console.log("welcome")
-     }else(
-        console.log("no entry")
-     )
-
+    //  if(age > 10){
+    //     console.log("welcome")
+    //  }else(
+    //     console.log("no entry")
+    //  )
+    (age > 10) ? console.log("welcome"): console.log("no entry");
 }
 
