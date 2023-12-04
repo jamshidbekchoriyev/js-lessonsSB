@@ -21,13 +21,33 @@ window.onload = function(){
 
     // console.log(seriesDB)
 
-     const age = +prompt("yoshingiz nechida?", "");
+    // const age = +prompt("yoshingiz nechida?", "");
 
     //  if(age > 10){
     //     console.log("welcome")
     //  }else(
     //     console.log("no entry")
     //  )
-    (age > 10) ? console.log("welcome"): console.log("no entry");
+
+    // (age > 10) ? console.log("welcome"): console.log("no entry");
+
+    const color = red;
+    switch(color){
+        case "red":
+            console.log("stop")
+        break;
+        case "yellow":
+            console.log("prepare")
+        break;
+        case "green":
+            console.log("go")
+        break;
+        default: 
+            console.log("daltonik");
+        break;
+    }
+
+
+
 }
 
