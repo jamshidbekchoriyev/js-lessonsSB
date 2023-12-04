@@ -47,7 +47,24 @@ window.onload = function(){
     //     break;
     // }
 
-    
+
+    // let i = 1;
+    // while(i <= 20){
+    //     console.log(i);
+    //     i++;
+    // }
+
+    // do{
+    //     console.log(i);
+    //     i++;
+    // } while(i <= 20);
+
+    // let gacha = 100;
+    // for(let i = 0; i <= gacha; i++){
+    //     console.log(i)
+    // }
+
+   
 
 
 
