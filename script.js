@@ -31,7 +31,7 @@ window.onload = function(){
 
     // (age > 10) ? console.log("welcome"): console.log("no entry");
 
-    const color = red;
+    const color = "red";
     switch(color){
         case "red":
             console.log("stop")
