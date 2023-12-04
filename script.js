@@ -31,21 +31,23 @@ window.onload = function(){
 
     // (age > 10) ? console.log("welcome"): console.log("no entry");
 
-    const color = "red";
-    switch(color){
-        case "red":
-            console.log("stop")
-        break;
-        case "yellow":
-            console.log("prepare")
-        break;
-        case "green":
-            console.log("go")
-        break;
-        default: 
-            console.log("daltonik");
-        break;
-    }
+    // const color = "red";
+    // switch(color){
+    //     case "red":
+    //         console.log("stop")
+    //     break;
+    //     case "yellow":
+    //         console.log("prepare")
+    //     break;
+    //     case "green":
+    //         console.log("go")
+    //     break;
+    //     default: 
+    //         console.log("daltonik");
+    //     break;
+    // }
+
+    
 
 
 
