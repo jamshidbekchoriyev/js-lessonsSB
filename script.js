@@ -65,6 +65,51 @@ window.onload = function(){
     // }
 
    
+    // function logger(text){
+    //     console.log(text)
+    // }
+    // logger("hello world");
+    // logger("hello javaScript");
+
+    // function calc(a, b){
+    //     console.log(a + b)
+    // }
+    // calc(10, 5);
+    // calc(10, 9);
+
+    // function sayMyName(name, surname){
+    //     console.log(`My name is ${name} ${surname}`)
+    // }
+    // sayMyName("Jamshid", "Choriyev")
+
+    // function calc(a, b){
+    //     return a + b;
+    // }
+    // console.log(calc(10, 5));
+    
+    // function calc(a, b){
+    //     return a + b;
+    // }
+    // const sumOfAandB = calc(10, 5);
+    // console.log(sumOfAandB);
+
+
+     // function expression 
+
+    //  const logger = function(){
+    //     console.log("Hello world")
+    //  }
+    //  logger();
+
+
+
+    // arrow function
+
+    // const logger = () => {
+    //     console.log("hello world")
+    // }
+    // logger();
+
 
 
 
