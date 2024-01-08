@@ -1,7 +1,11 @@
 window.onload = function(){
     "use strict";
 
-    // const numberOfSeries = +prompt("Nechta serial ko'rdingiz?", "");
+    // let numberOfSeries;
+    // function startApp() {
+    //     numberOfSeries = +prompt("Nechta serial ko'rdingiz?", "");
+    // }
+    // startApp();
 
     // const seriesDB = {
     //     count: numberOfSeries,
@@ -11,15 +15,32 @@ window.onload = function(){
     //     private: false,
     // };
 
-    // const a = prompt("Oxirgi ko'rgan serialingiz?"),
-    // b = prompt ("Nechi baho bergan bo'lardingiz?"),
-    // c = prompt("Oxirgi ko'rgan serialingiz?"),
-    // d = prompt ("Nechi baho bergan bo'lardingiz?");
+    // for(let i = 0; i < 2; i++){
+    //     const a = prompt("Oxirgi ko'rgan serialingiz?"),
+    //     b = prompt ("Nechi baho bergan bo'lardingiz?");
 
-    // seriesDB.series[a] = b;
-    // seriesDB.series[c] = d;
+    //     if(a != null && b != null && a != "" && b != ""){
+    //         seriesDB.series[a] = b;
+    //         console.log("done")
+    //     }else{
+    //         console.log("error");
+    //         i--;
+    //     }
+    // }
+    
+    // if(seriesDB.count < 5){
+    //     console.log("Kam serial ko'ripsiz");
+    // }else if(seriesDB.count >= 5 && seriesDB.count < 10){
+    //     console.log("siz classik tomashabin ekansiz")
+    // }else if(seriesDB.count >= 10){
+    //     console.log("siz serialchi zvezda ekansiz")
+    // }else{
+    //     console.log("Error")
+    // }
 
     // console.log(seriesDB)
+
+
 
     // const age = +prompt("yoshingiz nechida?", "");
 
@@ -111,6 +132,64 @@ window.onload = function(){
     // logger();
 
 
+
+
+    // method and properties
+
+    // string
+    // const user = "Jamshid";
+    // console.log(user.length);
+
+    // const arr = [1, 2, 3, 4];
+    // console.log(arr.length);
+
+
+    // const upperCaseUser = user.toUpperCase();
+    // console.log(upperCaseUser);
+    // console.log(user.toLowerCase());
+    
+    // const greeting = "Hello world";
+    // console.log(greeting.indexOf("w"));
+
+    // console.log(greeting.slice(0, 5));
+    // console.log(greeting.slice(6, 11));
+
+
+    // number
+
+    //const num = 8.8;
+    //console.log(Math.round(num));
+
+    //const borderWidth = "13.8px";
+    //console.log(parseInt(borderWidth));
+    // bunda malumotni number qiladi lekin 13 qaytaradi
+    //console.log(parseFloat(borderWidth));
+    // bunda malumotni number qiladi lekin 13.8 qaytaradi
+
+
+
+
+    //  callback 
+    // function first () {
+    //     setTimeout(()=>{
+    //         console.log(1);
+    //     }, 1000)
+    // }
+    // function second () {
+    //     console.log(2);
+    // }
+
+    // first();
+    // second();
+
+    function edu(subject, callback){
+        console.log(`I wanna teach ${subject}`);
+        callback();
+    }
+
+    edu("Javascript", function(){
+        console.log("That's great");
+    });
 
 
 }
